@@ -1,13 +1,8 @@
 
-{{-- rafa --}}
 
-
-{{-- (.)(.) --}}
 {{-- yamil --}}
-{{--pablo--}}
-
-{{-- Que divertido es todo esto --}}
-
+{{-- rafa --}}
+{{-- PABLO --}}
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
