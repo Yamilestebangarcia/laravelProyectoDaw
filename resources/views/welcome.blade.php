@@ -6,6 +6,7 @@
 {{-- yamil --}}
 {{--pablo--}}
 
+{{-- Que divertido es todo esto --}}
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
