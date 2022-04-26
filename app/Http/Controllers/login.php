@@ -66,7 +66,7 @@ class login extends Controller
     }
     public function resetPassword(Request $request)
     {
-
+        request()->session()->regenerate();
         $request->validate(['email' => 'required|email']);
 
         $user = DB::table('users')->where("email", "=", $request->email)->get();
@@ -102,6 +102,7 @@ class login extends Controller
     }
     public function changePassword(changePasswordRequest $request)
     {
+        request()->session()->regenerate();
         if (isset($request->jwt)) {
             $key = env('JWT_SECRET');
             try {
